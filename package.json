@@ -1,0 +1,25 @@
+{
+  "name": "firstsnippets",
+  "displayName": "First snippets",
+  "description": "Different snippets for working with cpp",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/Traffaello?tab=repositories"
+  },
+  "icon": "For-cycle_icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "cpp",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
