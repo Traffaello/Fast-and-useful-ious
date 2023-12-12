@@ -1,5 +1,5 @@
 {
-    "For-cycle":{
+    "For-cycle-snip":{
         "prefix": "!for",
         "body":[
             "for(int ${1:iterator}=0; ${1}<${2:size}; ${1}++)",
@@ -7,11 +7,9 @@
             "   ",
             "}"
         ],
-        "description": "automatically creates for-cycle",
-    }
-}
-{
-    "Struct":{
+        "description": "automatically creates for-cycle"
+    },
+    "Struct-snip":{
         "prefix": "!struct",
         "body":[
             "struct ${1:Name_struct}{",
