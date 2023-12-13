@@ -20,5 +20,17 @@
             "}"
         ],
         "description": "automatically creates struct, it`s constructor and destructor"
-    }
+    },
+    "Node-snip":{
+        "prefix":"!node",
+        "body":[
+            "struct Node{",
+            "node(long long value_) : value(value_), left(nullptr), right(nullptr) {}",
+            "long long value;",
+            "node *left;",
+            "node *right;",
+            "};"
+        ],
+        "description": "automatically creates struct Node, it`s components and constructor"
+    }   
 }
