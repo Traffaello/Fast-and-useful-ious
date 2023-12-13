@@ -29,7 +29,7 @@
             "long long value;",
             "node *left;",
             "node *right;",
-            "};"
+            "}"
         ],
         "description": "automatically creates struct Node, it`s components and constructor"
     }   
