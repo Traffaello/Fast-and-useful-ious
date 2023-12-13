@@ -25,3 +25,13 @@ struct Name_struct {
 }
 ```
 
+>`!node` - позволяет быстро выводить конструкцию структуры Node, включая инициализацию конструктора с параметром value:
+```cpp
+struct Node{
+    node(long long num_) : num(num_), left(nullptr), right(nullptr) {}",
+    long long num;
+    node *left;
+    node *right;
+}
+```
+
